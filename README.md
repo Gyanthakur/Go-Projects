@@ -1,4 +1,7 @@
 # 🚀 Personal Project – Vite + React
+![My Projects](https://github.com/user-attachments/assets/d68174a3-42df-4432-b9c6-62c6157600a1)
+
+
 
 A modern, responsive, and visually rich **developer portfolio** built with **React, Vite, and Tailwind CSS**. This project showcases featured projects, categories, live demos, GitHub repositories, personal profile, skills, statistics, and a strong call‑to‑action section.
 
@@ -8,8 +11,7 @@ Live demos, clean UI animations, and well‑structured components make this port
 
 ## 🔗 Live Demo
 
-🌐 **Portfolio Website:** (Deploy on Vercel / Netlify)
-Demo: https://go-projects-gps.vercel.app/
+🌐 **Portfolio Website:**  https://go-projects-gps.vercel.app
 
 ---
 
