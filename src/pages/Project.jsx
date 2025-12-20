@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Github, Linkedin, Mail, MessageCircleCode, ExternalLink, Code2, Zap, Globe, ArrowRight } from "lucide-react";
+import { Github, Linkedin, Mail, MessageCircleCode, ExternalLink, Code2, Zap, Globe, ArrowRight, FileHeart } from "lucide-react";
 
 export default function Portfolio() {
 	const [hoveredProject, setHoveredProject] = useState(null);
@@ -383,6 +383,16 @@ export default function Portfolio() {
 									<MessageCircleCode size={20} />
 								</a>
 
+
+								<a
+									href="https://my-certificates-mu.vercel.app"
+									target="_blank"
+									className="group p-3 rounded-full border border-gray-300 text-gray-700 hover:border-orange-600 hover:bg-orange-600 hover:text-white transition"
+									title="My Certificate"
+								>
+									<FileHeart size={20} />
+								</a>
+
 								<a
 									href="mailto:gps.96169@gmail.com"
 									className="group p-3 rounded-full border border-gray-300 text-gray-700 hover:border-red-600 hover:bg-red-600 hover:text-white transition"
@@ -442,6 +452,15 @@ export default function Portfolio() {
 							title="WhatsApp"
 						>
 							<MessageCircleCode size={20} />
+						</a>
+						<a
+							href="https://my-certificates-mu.vercel.app"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="group p-3 rounded-full border border-gray-300 text-gray-700 hover:border-green-600 hover:bg-green-600 hover:text-white transition"
+							title="My Certificate"
+						>
+							<FileHeart size={20} />
 						</a>
 
 						<a
