@@ -41,6 +41,16 @@ export default function Portfolio() {
 			category: "healthcare"
 		},
 		{
+		name: "Flip Earn",
+		description: "Flip Earn is a full-stack marketplace for buying and selling social media profiles (Instagram, YouTube, TikTok, and more). Built with React, Tailwind CSS, Clerk authentication, Prisma (Neon/PostgreSQL), ImageKit, Stripe payments, Nodemailer, and Inngest for background workflows.",
+		image: "/projectImg/flipearn.png",
+		repo: "https://github.com/Gyanthakur/Flip-Earn",
+		demo: "https://flip-earn-gps.vercel.app",
+		tags: ["React", "Tailwind", "Stripe", "PostgreSQL", "Prisma"],
+		icon: "💱",
+		category: "marketplace"
+		},
+		{
 			name: "Image Generator",
 			description:
 			"Image Generator is an AI-driven application that creates high-resolution images from text prompts. It supports customizable styles and creative flexibility, making it useful for designers, marketers, and content creators.",
@@ -142,7 +152,7 @@ export default function Portfolio() {
 	];
 
 
-	const categories = ["all", "education", "portfolio", "saas", "tools", "ai", "healthcare"];
+	const categories = ["all", "education", "portfolio", "saas", "tools", "ai", "healthcare", "marketplace"];
 	const filteredProjects = selectedCategory === "all" 
 		? projects 
 		: projects.filter(p => p.category === selectedCategory);
